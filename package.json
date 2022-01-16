@@ -10,7 +10,7 @@
     "e2e": "node test/e2e/runner.js",
     "start": "npm run dev",
     "test": "mochapack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js",
-    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js"
+    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.17",
