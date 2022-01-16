@@ -2,6 +2,8 @@
 
 > Sortable Post List Project
 
+![projectscreenshot](https://user-images.githubusercontent.com/9948191/149667208-7ce12284-da7f-4b9e-8064-1a22f4c8d98f.jpg)
+
 ## Build Setup
 
 ``` bash
