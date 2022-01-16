@@ -9,7 +9,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "e2e": "node test/e2e/runner.js",
     "start": "npm run dev",
-    "test": "mochapack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js",
+    "test": "npm run unit && npm run e2e",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run"
   },
   "dependencies": {
